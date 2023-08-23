@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
-  modules: ['@nuxtjs/tailwindcss', 'tdesign-vue-next/es/nuxt', 'nuxt-lodash'],
+  modules: ['@nuxtjs/tailwindcss', 'tdesign-vue-next/es/nuxt', 'nuxt-lodash', '@nuxt/image'],
   build: {
     transpile: ['tdesign-vue-next'],
   },
