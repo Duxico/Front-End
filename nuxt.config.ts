@@ -4,8 +4,18 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
-  modules: ['@nuxtjs/tailwindcss', 'tdesign-vue-next/es/nuxt', 'nuxt-lodash', '@nuxt/image'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'tdesign-vue-next/es/nuxt',
+    'nuxt-lodash',
+    '@nuxt/image',
+    '@pinia/nuxt',
+    '@pinia-plugin-persistedstate/nuxt',
+  ],
   build: {
     transpile: ['tdesign-vue-next'],
+  },
+  pinia: {
+    autoImports: ['defineStore'],
   },
 })
