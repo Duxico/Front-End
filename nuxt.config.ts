@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
+    '@vueuse/nuxt',
   ],
   build: {
     transpile: ['tdesign-vue-next'],
